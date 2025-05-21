@@ -64,18 +64,4 @@ offset_bottom = 23.0
 grow_horizontal = 2
 horizontal_alignment = 1
 
-[node name="ResetButton" type="Button" parent="CanvasLayer"]
-anchors_preset = 3
-anchor_left = 1.0
-anchor_top = 1.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = -54.0
-offset_top = -31.0
-grow_horizontal = 0
-grow_vertical = 0
-text = "RESET"
-
 [connection signal="pressed" from="CanvasLayer/ConnectionPanel/GridContainer/ServerButton" to="." method="_on_server_button_pressed"]
-[connection signal="pressed" from="CanvasLayer/ConnectionPanel/GridContainer/ClientButton" to="." method="_on_client_button_pressed"]
-[connection signal="pressed" from="CanvasLayer/ResetButton" to="." method="_on_reset_button_pressed"]

@@ -11,12 +11,14 @@ config_version=5
 [application]
 
 config/name="RatTactics"
+run/main_scene="uid://c35bu8asjqipu"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [autoload]
 
 SyncManager="*res://addons/godot-rollback-netcode/SyncManager.gd"
+SyncDebugger="*res://addons/godot-rollback-netcode/SyncDebugger.gd"
 
 [display]
 
